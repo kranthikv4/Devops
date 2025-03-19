@@ -16,7 +16,7 @@ body {font-family: "Raleway", Arial, sans-serif}.w3-row img {margin-bottom: -8px
 <div class="w3-content" style="max-width:1500px">
   <!-- Header -->
   <header class="w3-container w3-xlarge w3-padding-24">
-    <a href="#" class="w3-left w3-button w3-white">Labs</a>
+    <div class="center-text">MyNew-Project</div>
     <a href="#about" class="w3-right w3-button w3-white">About</a>
   </header>
   <!-- Photo Grid -->
