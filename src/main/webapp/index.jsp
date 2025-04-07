@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>welcome to my board</title>
+<title>Web page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,7 +16,7 @@ body {font-family: "Raleway", Arial, sans-serif}.w3-row img {margin-bottom: -8px
 <div class="w3-content" style="max-width:1500px">
   <!-- Header -->
   <header class="w3-container w3-xlarge w3-padding-24">
-    <div class="center-text">MyNew-Project</div>
+    <div class="center-text">Project</div>
     <a href="#about" class="w3-right w3-button w3-white">About</a>
   </header>
   <!-- Photo Grid -->
