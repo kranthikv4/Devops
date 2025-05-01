@@ -3,64 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .login-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
-        }
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>Application Form</title>
 </head>
+
 <body>
-
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="/login" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <input type="submit" value="Login">
-        </form>
-    </div>
-
+    <form>
+        <label for="name">Name</lable>
+        <br>
+        <input type="text" id="Name" name="name">
+        <br>
+        <label for ="age">Age</label>
+        <br>
+        <input type="text" id="age" name="age">
+        <br>
+        <label for="DOB">Date of Birth</label>
+        <br>
+        <input type="text" id="DOB" name="DOB">
+        <br>
+        <br>
+        <label for="email"><b>Email</b></label>
+        <br>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <br>
+        <br>
+        <label for="contact">Contact</label>
+        <br>
+        <input type="text" id="contact" name="contact">
+        <br>
+        <br>
+       
+     <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" name="gender" value="male">
+        <label for="Male">Male</label>
+        <br>
+        <input type="radio" name"gender" name="gender" value="Female">
+        <lab<el for="Female">Female</label> 
+        <br>
+        <input type="radio" name"gender" name="gender" value="prefer Not To Say">
+        <lab<el for="Male">PNTS</label>
+        <br>
+        <br>
+     <label>Mutual Status</label>
+        <br>
+        <input type="radio" name="mutual status" name="mutual status" value="single">
+         <label for="single">Single</label>
+         <br>
+         <input type="radio" name="mutual status"  name="mutual ststus" value="married">
+         <label for="married">Married</label>
+         <br>
+         <br>
+         <label for="address">Address</label>
+         <br>
+        <input type="area" id="Address" name="Address">
+        <br>
+        <br>
+      <label for="language">Language preferred</label>
+      <br>
+      <input type="checkbox" name="language" name="language" value="enlish">
+      <label for="english">English</label>
+      <br>
+      <input type="checkbox" name="language" name="language" value="hindi">
+      <label for="Hindi" >Hindi</label>
+      <br>
+      <input type="checkbox" name="language" name="language" value="telugu">
+      <label for="Telugu" >Telugu</label>
+ 
+    </form>
+    
 </body>
 </html>
